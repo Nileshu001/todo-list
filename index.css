@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.Ncontainer{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4e085f,#153677);
+    padding: 10px;
+}
+.todo-list-container{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.todo-list-container h2{
+   color: #002765;
+   margin-bottom: 10px;
+   align-items: center;
+   text-align: center;
+
+}
+.task-field{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background: #ffefef;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.task-add{
+    flex: 1;
+    background: transparent;
+    border: none;
+    padding: 0 20px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 500;
+}
+button{
+    width: 75px;
+    border: none;
+    border-radius:0 30px 30px 0; 
+    background: #faa11c;
+    font-weight:700;
+}
+button:hover{
+    background: #105000;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+}
+.task-list-container .taskList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.delectTask ion-icon{
+    margin-left: 10px;
+}
+.delectTask ion-icon:hover{
+    cursor: pointer;
+    color: #005ff8;
+}
